@@ -77,5 +77,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_str_funktio_toimii_oikein(self):
         mjono = f"saldo = {0}, vielä tilaa {10}"
-
         self.assertEqual(self.varasto.__str__(), mjono)
